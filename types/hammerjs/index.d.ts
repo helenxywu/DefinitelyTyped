@@ -41,7 +41,7 @@ interface HammerStatic
 
   Manager:     HammerManagerConstructor;
   Input:       HammerInput;
-  TouchAction: TouchAction;
+  TouchAction: typeof TouchAction;
 
   TouchInput:        TouchInput;
   MouseInput:        MouseInput;
